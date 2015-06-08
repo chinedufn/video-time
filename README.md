@@ -25,9 +25,9 @@ vTime(9002)     // '2:30:02'
 
 ## API
 
-#### vTime(time)
+#### `vTime(time)` -> `string`
 
-**time**
+#### time
 
 *Required* Type: `Number`
 
