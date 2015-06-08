@@ -1,0 +1,28 @@
+{
+  "name": "video-time",
+  "version": "0.0.1",
+  "description": "Convert from seconds to video seek time",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chinedufn/video-time.git"
+  },
+  "keywords": [
+    "video",
+    "time",
+    "seconds"
+  ],
+  "author": "Chinedu Francis Nwafili",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/video-time/issues"
+  },
+  "homepage": "https://github.com/chinedufn/video-time",
+  "devDependencies": {
+    "standard": "^4.0.1",
+    "tape": "^4.0.0"
+  }
+}
