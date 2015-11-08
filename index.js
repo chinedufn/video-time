@@ -1,5 +1,7 @@
 module.exports = function (time) {
-  if (isNaN(parseFloat(time)) || !isFinite(time)) throw new Error('Not a number')
+  if (isNaN(parseFloat(time)) || !isFinite(time)) {
+    return '0:00'
+  }
 
   time = Math.floor(time)
   var hours = Math.floor(time / 3600)

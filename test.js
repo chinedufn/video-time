@@ -13,6 +13,9 @@ test('video time', function (t) {
   t.equal(vTime(3600), '1:00:00', '[3600+ seconds] ->  h:mm:ss')
 
   t.equal(vTime(10.05), '0:10', 'Accept floats')
-  t.throws(vTime('55'), 'Not a number', 'Numbers only')
+
+  t.equal(vTime('0'), '0:00', 'Accepts strings')
+
+  t.equal(vTime('hello-world'), '0:00', '0 if not number')
   t.end()
 })
